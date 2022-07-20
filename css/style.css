@@ -59,6 +59,7 @@ body {
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
   /*It will hide till here*/
+  overflow: hidden; /* Hide scrollbars */
 }
 
 img {
