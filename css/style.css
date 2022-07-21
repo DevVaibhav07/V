@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*
 Template Name: Bolby
 Version: 1.0
@@ -44,6 +44,8 @@ Description: Portfolio/CV/Resume HTML Template
 html {
   margin: 0 !important;
   overflow: auto !important;
+webkit-scrollbar 
+    display: none;
 }
 
 body {
@@ -59,7 +61,6 @@ body {
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
   /*It will hide till here*/
-  overflow: hidden; /* Hide scrollbars */
 }
 
 img {
@@ -869,6 +870,10 @@ main.content {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+/*Hide scrollbar vaibhav*/
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  /*It will hide till here*/
 }
 main.content.open {
   opacity: 0.8;
@@ -2061,7 +2066,7 @@ body.dark .blog-page-section .blog-single {
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
-} 
+}
 
 /* === Form Control === */
 .form-control {
