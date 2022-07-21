@@ -2063,9 +2063,9 @@ body.dark .blog-page-section .blog-single {
   background-color: #0c0c0d;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: width 0.9s ease;
-  -o-transition: width 0.9s ease;
-  transition: width 0.9s ease;
+  -webkit-transition: width 0.1s ease;
+  -o-transition: width 0.1s ease;
+  transition: width 0.1s ease;
 }
 
 /* === Form Control === */
