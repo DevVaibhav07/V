@@ -1242,7 +1242,7 @@ select.portfolio-filter-mobile {
   margin-bottom: 0;
 }
 .price-item ul li {
-  line-height: 2.1;
+  line-height: 2.1; 
 }
 .price-item .btn {
   margin-top: 20px;
